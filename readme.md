@@ -25,8 +25,10 @@ Optimizer::optimize('@app/image.png');
 Or, define it as Yii2 component. At your config:
 
 ```php
-'optimizer' => [
-  'class' => 'rollingglory\ImageOptimizer\Optimizer',
+'components' => [
+  'optimizer' => [
+    'class' => 'rollingglory\ImageOptimizer\Optimizer',
+  ],
 ],
 ```
 
